@@ -13,5 +13,5 @@ class Link(models.Model):
     active = models.BooleanField(default=True) 
 
     def save(self, *args , **kwargs):
-        self.identifier = slugify(generate_random_id())
+        self.identifier = generate_random_id()
         super(Link,self).save(*args, **kwargs)
