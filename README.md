@@ -1,1 +1,1 @@
-# QuerysetsAndManagers
+# zuri api
